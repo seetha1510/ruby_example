@@ -10,6 +10,7 @@ RSpec.describe 'Creating a book', type: :feature do
     click_on 'Create Book'
     visit books_path
     expect(page).to have_content('Hunger games')
+    assert_selector "#notice"
   end
 
   scenario 'invalid inputs' do
