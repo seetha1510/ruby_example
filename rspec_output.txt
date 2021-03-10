@@ -1,0 +1,30 @@
+
+As an user, I want to be able to enter a new book
+.  Successfully
+.  Unsuccessfully
+
+Creating a book
+.  valid inputs
+.  invalid inputs
+
+Book
+.  Book is valid with valid attributes
+.  Book is not valid without a title
+.  Book is not valid without an author
+.  Book is not valid without a genre
+.  Book is not valid without a price
+.  Book is valid without a published date
+
+Stub
+  new book creation
+.    new book with only title
+.    new book with only author
+
+
+Finished in 0.54122 seconds (files took 3.38 seconds to load)
+12 examples, 0 failures
+
+Finished in 0.54122 seconds (files took 3.38 seconds to load)
+12 examples, 0 failures
+
+
